@@ -1,0 +1,91 @@
+#noteMainText {
+    -moz-appearance: textfield-multiline;
+    -webkit-appearance: textarea;
+    background-color: white;
+    border: 1px solid gray;
+    font-family: Calibri,sans-serif;
+    height: 28px;
+    overflow: auto;
+    padding: 2px;
+    resize: vertical;
+    width: 100%;
+}
+
+#titleInput {
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    background-color: white;
+    background-color: -moz-field;
+    border: 1px solid darkgray;
+    box-shadow: 1px 1px 1px 0 lightgray inset;
+    font: -moz-field;
+    margin-top: 5px;
+    min-height: 20px;
+    padding: 2px 3px;
+    min-width: 100px;
+    width: 100%;
+}
+
+#dateTimeText {
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    background-color: white;
+    background-color: -moz-field;
+    border: 1px solid darkgray;
+    box-shadow: 1px 1px 1px 0 lightgray inset;
+    font: -moz-field;
+    margin-top: 5px;
+    min-height: 20px;
+    padding: 2px 3px;
+    min-width: 100px;
+    width: 100%;
+}
+
+
+.sel {
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    background-color: white;
+    background-color: -moz-field;
+    border: 1px solid darkgray;
+    box-shadow: 1px 1px 1px 0 lightgray inset;
+    font-family: Calibri, sans-serif;
+    margin-top: 5px;
+    padding: 2px 3px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.selected {
+    background-color: white;
+}
+.hide {
+    display: none;
+}
+.sel .options {
+    width: 100%;
+}
+.sel .options div {
+    transition: all 0.2s ease-out;
+    padding: 5px;
+}
+.sel .options div:hover {
+    background-color: lightgray;
+}
+
+.box{
+    background-color: red;
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    margin-top: 5px;
+    padding: 2px 3px;
+}
+
+#checkboxes input[type=checkbox]{
+    display: none;
+}
+
+#checkboxes input[type=checkbox]:checked + .box{
+    background-color: green;
+}

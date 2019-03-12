@@ -1,0 +1,111 @@
+div.mainTable {
+    width: 95vw;
+    height: 95vh;
+}
+.divTable.mainTable .divTableCell, .divTable.mainTable .divTableHead {
+    padding: 0 0;
+}
+.divTableSeparator{
+    width: 2vw;
+    background: gray;
+}
+.divTableMainLeft{
+    width: 45vw;
+    background: darkslategray;
+    padding: 10px 10px;
+
+}
+.divTableMainRight{
+    width: 45vw;
+    background: darkslategray;
+    padding: 10px 10px;
+
+}
+
+div.headTable {
+    width: 95vw;
+    text-align: left;
+    background: gray;
+}
+.divTable.headTable .divTableCell, .divTable.headTable .divTableHead {
+    padding: 0px 0px;
+    width: 100%;
+}
+
+div.listTable {
+    background-color: #EEEDB5;
+    width: 100%;
+    text-align: center;
+    font-family: Calibri,sans-serif;
+
+}
+.divTable.listTable .divTableRow:nth-child(even) {
+    background: #F9F4D2;
+}
+.divTableRow:hover > .overlay {
+    background-color: black;
+    opacity:0.5;
+    color: white;
+    text-align: center;
+    font-family: Calibri,sans-serif;
+
+}
+
+.divTableRow:focus {
+    background: darkgreen;
+    color: white;
+    text-align: center;
+}
+.divTable.listTable .divTableRow:nth-child(even):focus {
+    background: darkgreen;
+    color: white;
+    text-align: center;
+}
+
+.divTableListID {
+    white-space: nowrap;
+    width:30px;
+    padding: 20px 5px;
+    height: 10px;
+}
+
+.divTableListTitle {
+    white-space: nowrap;
+    width:300px;
+    padding: 20px 5px;
+    height: 10px;
+}
+
+.divTableListCategory{
+    white-space: nowrap;
+    width:150px;
+    padding: 20px 5px;
+    height: 10px;
+}
+
+.divTableListDate{
+    white-space: nowrap;
+    width:110px;
+    padding: 20px 5px;
+    height: 10px;
+}
+
+.divTableListComplete{
+    width: 80px;
+    padding: 10px 5px;
+    height: 10px;
+}
+
+
+.divTableListComplete { display: table-cell; }
+.divTableListDate { display: table-cell; }
+.divTableListCategory { display:table-cell; }
+.divTableListTitle { display:table-cell; }
+.divTableListID { display:table-cell; }
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableSeparator {display: table-cell; }
+.divTableMainLeft { display:table-cell; }
+.divTableMainRight { display:table-cell; }
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableBody { display: table-row-group;}
